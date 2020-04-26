@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Transform</title>
+    <style>
+        h1 {
+            color :violet;
+        }
+        p {
+            color :black;
+        }
+        .box-container {
+            display: flex;
+        }
+        .box {
+            margin:20px;
+            padding :20px;
+            width :100px;
+            height :100px;
+            background : darkcyan;
+            border : 6px solid violet;
+        }
+        .box:hover {
+            background : gray;
+          /* transform: scale(1.1) skewY(45deg); */
+            transform: translate(10px, 30px) rotate(30deg);
+        }
+
+    </style>
+</head>
+<body>
+    <h1>CSS Transform</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid ab doloribus dolorem corrupti laborum repellat ex, tempora esse ad numquam nihil similique quia hic, itaque praesentium non. Sapiente modi voluptatem ab nam hic, quos saepe nulla qui tenetur unde accusamus nihil iste commodi temporibus ad omnis a debitis quae dolore, porro consequuntur totam. Temporibus nam corporis veniam hic sequi enim, pariatur et quas illo perspiciatis rem laudantium similique beatae esse, optio explicabo minus suscipit repudiandae, voluptatem dolorem dicta magnam expedita autem ipsum. Quae recusandae, aut minima cum consequuntur eos ut expedita tempore beatae. Enim quasi adipisci autem laborum quia fuga!</p>
+
+    <div class="box-container">
+     <div class="box">
+         <img src="https://source.unsplash.com/random/100x100?sig=1” alt=“random-image">
+     </div>
+     <div class="box">
+        <img src="https://source.unsplash.com/random/100x100?sig=2” alt=“random-image">
+     </div>
+     <div class="box">
+        <img src="https://source.unsplash.com/random/100x100?sig=3” alt=“random-image">
+     </div>
+     <div class="box">
+        <img src="https://source.unsplash.com/random/100x100?sig=4” alt=“random-image">
+     </div>
+     <div class="box">
+        <img src="https://source.unsplash.com/random/100x100?sig=5">
+     </div>
+    </div>
+
+</body>
+</html>
