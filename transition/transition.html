@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transition</title>
+    <style>
+      h1 {
+          color: violet;
+      }
+      .box-container {
+          display: flex;
+      }
+      .box {
+            margin:20px;
+            padding :20px;
+            width :100px;
+            height :100px;
+            background: gray;
+            border : 6px solid violet;
+            transition: 1s cubic-bezier(0.42, -1.32, 0, 0.93);
+      }
+      .box:hover{
+          background: greenyellow;
+          transform : scale(1.5); 
+      }
+    </style>
+</head>
+<body>
+    <h1>Transition</h1>
+    <div class="box-container">
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+    </div>
+</body>
+</html>
